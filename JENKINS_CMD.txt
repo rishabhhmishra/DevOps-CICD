@@ -16,9 +16,6 @@ sudo systemctl start jenkins
 sudo systemctl enable jenkins
 
 
-Access Jenkins:
-http://10.0.63.110:8090.
-
 Unlock Jenkins:
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
