@@ -1,0 +1,23 @@
+
+Download and Extract SonarQube:
+cd data01/software/sonarqube
+sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.10.61524.zip
+sudo unzip sonarqube-8.9.10.61524.zip
+
+
+Configure SonarQube:
+cd conf
+vi sonar.properties
+
+sonar.jdbc.username=
+sonar.jdbc.password=
+sonar.jdbc.url=
+sonar.web.port=
+
+:wq!
+
+./sonar.sh start
+
+
+cd /data01/software/sonarqube/sonarqube-8.9.10.61524/bin/linux-x86-64
+

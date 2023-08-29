@@ -1,0 +1,60 @@
+
+Navigation and File Operations:
+ls: List files and directories.
+cd: Change directory.
+pwd: Print working directory.
+mkdir: Create a directory.
+touch: Create an empty file.
+cp: Copy files or directories.
+mv: Move or rename files or directories.
+rm: Remove files or directories.
+cat: Display the contents of a file.
+
+
+System Information:
+uname: Print system information.
+df: Display disk space usage.
+free: Display memory usage.
+top: Display system activity in real-time.
+ps: Display information about running processes.
+
+Text Manipulation:
+echo: Display text.
+grep: Search for patterns in files.
+sed: Stream editor for text manipulation.
+awk: Text processing tool for pattern scanning and processing.
+sort: Sort lines in text files.
+
+Package Management:
+apt-get (Debian-based): Package management tool for installing, updating, and removing software packages.
+yum (RPM-based): Package management tool for RPM-based distributions like CentOS and Fedora.
+Networking:
+
+ifconfig or ip: Configure network interfaces.
+ping: Send ICMP echo requests to a host.
+nslookup or dig: Query DNS records.
+netstat: Display network statistics.
+
+User Management:
+useradd: Add a new user.
+passwd: Change user password.
+su: Switch user.
+sudo: Execute commands with superuser privileges.
+
+
+Permissions and Ownership:
+chmod: Change file permissions.
+chown: Change file ownership.
+
+Archiving and Compression:
+tar: Archive and compress files.
+zip and unzip: Compress and decompress files using zip format.
+gzip and gunzip: Compress and decompress files using gzip format.
+
+Process Management:
+ps: Display information about running processes.
+kill: Terminate processes.
+nohup: Run a command immune to hangups.
+
+Shell Scripting:
+bash or sh: Run shell scripts.

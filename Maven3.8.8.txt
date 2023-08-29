@@ -1,0 +1,15 @@
+Download Maven:
+wget https://dlcdn.apache.org/maven/maven-3/3.8.8/binaries/apache-maven-3.8.8-bin.zip
+
+Extract Maven:
+sudo mkdir /data01/software/maven/maven3
+sudo tar -xzf apache-maven-3.8-bin.tar.gz -C /data01/software/maven
+
+Set Environment Variables:
+echo 'export PATH=/data01/software/maven/maven3/apache-maven-3.8/bin:$PATH' >> ~/.bashrc
+source ~/.bashrc
+
+
+Verify Installation:
+mvn -version
+

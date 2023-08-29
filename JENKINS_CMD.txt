@@ -1,0 +1,26 @@
+Add Jenkins Repository:
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io-2023.key
+
+Install Jenkins:
+sudo yum install jenkins
+
+Configure Jenkins Port:
+edit port in conf file 
+sudo vi /etc/sysconfig/jenkins
+JENKINS_PORT="8090"
+
+
+Start Jenkins:
+sudo systemctl start jenkins
+sudo systemctl enable jenkins
+
+
+Access Jenkins:
+http://10.0.63.110:8090.
+
+Unlock Jenkins:
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+Install Plugins and Complete Setup:
+Install all req plugins via ui .
